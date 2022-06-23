@@ -1,0 +1,108 @@
+/* ======================= GERAL ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --hue: 240;
+  --primary-color: hsl(var(--hue), 6%, 21%);
+  --bg-button: hsl(var(--hue), 9%, 89%);
+  --bg-button-focus: hsl(194, 97%, 31%);
+  --ff-body: 'Roboto', sans-serif;
+}
+
+body {
+  color: var(--primary-color);
+
+  font-family: var(--ff-body); 
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+button path{
+  fill: var(--primary-color);
+}
+
+svg path{
+  fill: var(--primary-color);
+}
+
+/* ======================= MAIN ======================= */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 82rem;
+  margin: auto;
+  padding: 20rem 0;
+}
+
+/* ======================= CONTROLS ======================= */
+/* #controls {
+  width: clamp(10rem, 10rem + 30vw, 3.2rem);
+  height: clamp(16rem, 16rem + 10vh,21rem);
+} */
+
+#timer {
+  font-size: 12.5rem;
+  display: flex;
+  margin-bottom: 4.8rem;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#buttons button{
+  background: transparent;
+  border: none;
+}
+
+/* ======================= SOUNDS ======================= */
+#sounds {
+  display: grid;
+  gap: 3.2rem;
+  grid-template-areas: "A B"
+  "C D";
+}
+
+#sounds button {
+  border: none;
+  border-radius: 2.4rem;
+
+  padding: 4.8rem;
+}
+
+.tree {
+  grid-area: A;
+}
+
+.rain {
+  grid-area: B;
+}
+
+.market {
+  grid-area: C;
+}
+
+.fire {
+  grid-area: D;
+}
+
+.onFocus {
+  background: var(--bg-button-focus);
+}
+
+.onFocus path {
+  fill: white;
+}
