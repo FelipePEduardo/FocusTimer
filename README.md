@@ -14,7 +14,7 @@
 
 ## Aplicação
 
-<p>O projeto está disponível no <a href="">link</a> junto com projeto no <a href="https://www.figma.com/file/0wpJcHe7W1IdsGcXwLAvWb/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0%3A1">figma</a></p>
+<p>O projeto está disponível no <a href="https://felipepeduardo.github.io/FocusTimer/">link</a> junto com projeto no <a href="https://www.figma.com/file/0wpJcHe7W1IdsGcXwLAvWb/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0%3A1">figma</a></p>
 
 ## Contatos
 
